@@ -23,6 +23,12 @@ El cliente está implementado utilizando Java Swing y se comunica con el servido
 
 ```sh
 mvn clean install wildfly:deploy
+
+cd /opt/wildfly-34.0.1.Final/bin 
+./standalone.sh
+
+mvn clean install
+mvn wildfly:deploy
 ```
 
 3. Con esto, puedes hacer solicitudes POST y GET usando Postman.
